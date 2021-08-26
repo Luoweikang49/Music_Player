@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navartists"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="我的">
+
+        </item>
+
+        <item
+            android:id="@+id/navsongs"
+            android:icon="@drawable/ic_library"
+            android:title="歌单">
+
+        </item>
+
+        <item
+            android:id="@+id/navalbums"
+            android:icon="@drawable/ic_album"
+            android:title="专辑">
+
+        </item>
+
+        <item
+            android:id="@+id/navradio"
+            android:icon="@drawable/ic_radio"
+            android:title="电台">
+
+        </item>
+
+        <item
+            android:id="@+id/navonline"
+            android:icon="@drawable/ic_cloud"
+            android:title="云盘">
+
+        </item>
+
+    </group>
+
+    <item android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/portfolio"
+                android:icon="@drawable/ic_portfolio"
+                android:title="已购">
+
+            </item>
+
+            <item
+                android:id="@+id/ettings"
+                android:icon="@drawable/ic_settings"
+                android:title="设置">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
