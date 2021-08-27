@@ -2,6 +2,8 @@ package com.example.music_player;
 
 import android.Manifest;
 import android.content.Intent;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.MenuItem;
